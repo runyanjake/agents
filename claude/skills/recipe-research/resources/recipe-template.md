@@ -1,0 +1,62 @@
+---
+sidebar_position: 1
+---
+
+import Admonition from '@theme/Admonition'
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# 
+
+<Tabs>
+  <TabItem value="photos" label="Photos" default>
+    A short description of the recipe.
+    ![image](@site/docs/static/not-found.svg)
+  </TabItem>
+
+  <TabItem value="ingredients" label="Ingredients">
+    ```mdx title="Recipe Name"
+    2 tablespoons unsalted butter
+    1 large onion (chopped)
+    2 medium carrots (chopped)
+    2 stalks celery (chopped)
+    Kosher salt, fresh ground pepper
+    1 teaspoon thyme
+    1 tablespoon parsley
+    1 tablespoon oregano
+    1 chicken bouillon (cube or powder)
+    4 cups chicken broth
+    2 pounds chicken (usually one safeway or costco chicken)
+    4 cups water
+    2 cups uncooked egg noodles
+    ```
+
+    <Admonition type="info" title="Fuel a Whole Sick Week">
+      <p>Recipe can make nearly a whole week of soup. Double it if you're feeling dangerous.</p>
+    </Admonition>
+    <Admonition type="info" title="Meal Prep">
+      <p>If doing meal prep and using a lot of noodles/macaroni, they tend to soak up a lot of the water/broth. Double the water and broth amounts if you want it to keep in the fridge and retain some broth, versus becoming more of a soup-casserole.</p>
+    </Admonition>
+  </TabItem>
+
+  <TabItem value="instructions" label="Instructions">
+    1. Turn your Instant Pot to the saute setting.
+    2. Add the **butter** and cook until the butter has melted. Add the **onion**, **carrots** and **celery** and saute for 3 minutes until the onion softens and becomes translucent.
+    3. Season with **salt** and **pepper**, add the **thyme**, **parsley**, **oregano**, **chicken bouillon** and stir.
+    4. Pour in the **chicken broth**. Add the **chicken pieces** and add another 4 cups of **water**. 
+    5. Close the lid. Set the Instant Pot to the Soup setting and set the timer to 7 minutes on high pressure.
+    6. Once the Instant Pot cycle is complete, wait until the natural release cycle is complete and open the instant pot.
+    7. Remove the chicken pieces from the soup and shred with two forks.
+    8. Add the **noodles** to the soup and set the Instant Pot to the saute setting again. Cook for another 6 minutes uncovered, or until the noodles are cooked. 
+    9. Turn off the Instant Pot. Add the shredded chicken back to the Instant Pot, taste for seasoning and adjust as necessary. Garnish with additional parsley if preferred.
+    
+    <Admonition type="info" title="Don't Oversalt">
+      <p>Watch the amount of salt in this, pretty easy to over-salt if you're not careful.</p>
+    </Admonition>
+  </TabItem>
+
+  <TabItem value="references" label="References">
+    https://www.jocooks.com/recipes/instant-pot-chicken-noodle-soup/
+  </TabItem>
+</Tabs>
+
