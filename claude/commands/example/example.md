@@ -14,5 +14,7 @@ User request: $ARGUMENTS     <-- $ARGUMENTS is everything the user typed after t
 1. First step
 2. Second step
 3. Third step
-```
+
+## Report
+Use the template at `.claude/commands/example/templates/example-template.md`
 
