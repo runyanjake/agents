@@ -6,7 +6,7 @@ Link to `~/.claude/agents/` if they should be available user-wide.
 Link to `./claude/agents` they should be available in just the project folder.
 
 ```bash
-ln -sfn /path/to/repo/claude/agents/agent.md /path/to/config/agents/agent.md
+ln -sfn /path/to/repo/claude/agents/agent.md /path/to/claude/agents/agent.md
 ```
 
 Then mention agents explicitly by name:
