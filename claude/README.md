@@ -12,6 +12,9 @@ Commands, preceded with `/`, that do specific tasks.
 ### Hooks
 Actions that execute at certain points in Claude Code's lifecycle.
 
+### Project
+Template project-specific files for Claude to work with.
+
 ### Scripts
 Scripts for setting up the claude config subtree for user and project.
 

@@ -1,0 +1,44 @@
+# Claude Code Configuration File - Template
+
+# Project Metadata
+project_name: "My Project"
+version: "1.0.0"
+
+# Model preferences
+# model: claude-sonnet-4-5-20250929
+
+# File Pattern Inclusion/Exclusion
+files:
+  include:
+    - "src/**/*.py"
+    - "src/**/*.js"
+    - "src/**/*.ts"
+    - "tests/**/*"
+    - "README.md"
+    - "package.json"
+    - "requirements.txt"
+  exclude:
+    - "node_modules/**"
+    - "venv/**"
+    - ".env"
+    - "*.log"
+    - "dist/**"
+    - "build/**"
+    - "__pycache__/**"
+    - "*.pyc"
+    - ".git/**"
+
+# Custom Instructions
+instructions_file: "instructions.md"
+
+# Additional Context 
+context_file: "context.md"
+
+# Preferences
+preferences:
+  auto_test: false
+
+  auto_format: true
+    code_style: "pep8"
+  
+  max_context_files: 50
