@@ -9,4 +9,4 @@ User Request: $AGRUMENTS
 
 ## Steps
 1. Read the data on the page passed in as the first argument and identify the ingredients list, cooking steps list, and any special instructions from the recipe.
-2. Create a new file named after the recipe. Use kebab case for the naming. Use the template at `~/.claude/commands/recipes/templates/recipe-template.md`.
+2. Create a new file named after the recipe. Use kebab case for the naming. Use the template at `~/.claude/commands/recipes/templates/recipe-template.md`. The final file should have an `.mdx` extension.
