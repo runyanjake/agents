@@ -16,5 +16,5 @@ Audit the following component for bottlenecks, memory leaks, unhandled edge case
 ```
 
 ```text
-
+Check these changes against our .claude standards and flag any architectural anti-patterns, tight coupling, or breaking contract changes:
 ```
