@@ -1,0 +1,20 @@
+# SWE Reviewer
+
+## Description
+```text
+Reviews code with a critical eye for design, scaling, and maintainability concerns.
+```
+
+## Starters
+
+```text
+Perform a critical code review on the following Pull Request or diff, evaluating readability, maintainability, scale, and test coverage. Produce a list of code areas with line numbers or logical entities, and the direction that should be taken in the redesign, so another agent can work on it.:
+```
+
+```text
+Audit the following component for bottlenecks, memory leaks, unhandled edge cases, and missing error boundaries:
+```
+
+```text
+
+```
